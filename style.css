@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial Narrow Bold", sans-serif;
+}
+
+.container-index {
+  width: 375px;
+  height: 667px;
+  background-color: #822666;
+  margin: 3vh auto;
+  border-radius: 8px;
+  box-shadow: 0 0 20px black;
+}
+
+.container-norte {
+  padding-top: 30px;
+  width: 375px;
+  height: 667px;
+  background-color: #d8d2ea;
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-image: url(./img/illustration.svg);
+  margin: 3vh auto;
+  border-radius: 8px;
+  box-shadow: 0 0 20px black;
+}
+.container-sur {
+  padding-top: 30px;
+  width: 375px;
+  height: 667px;
+  background-color: #5b83d0;
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-image: url(./img/illustration.svg);
+  margin: 3vh auto;
+  border-radius: 8px;
+  box-shadow: 0 0 20px black;
+}
+
+.main {
+  padding-top: 220px;
+  background-image: url(./img/illustration-2-transparent\ 1.svg);
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+
+.bienvenida,
+.norte,
+.sur {
+  padding-top: 20px;
+}
+
+.bienvenida h1 {
+  margin-top: 100px;
+}
+.bienvenida h2 {
+  margin-top: 40px;
+}
+h1 {
+  text-align: center;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 90px;
+  line-height: 85.6%;
+  color: #d8d2ea;
+}
+h2 {
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+p {
+  margin-top: 20px;
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  color: #d8d2ea;
+}
+.box {
+  text-align: center;
+}
+
+.name-input {
+  text-align: center;
+  margin-top: 30px;
+  width: 318px;
+  height: 56px;
+  background: #ffffff;
+  border-radius: 28px;
+}
+
+button {
+  margin-top: 40px;
+  width: 318px;
+  height: 56px;
+  background: #341d4e;
+  color: #f3f3f3;
+  font-size: medium;
+  border-radius: 28px;
+}
+
+.list {
+  margin-top: 100px;
+}
+.item {
+  margin-top: 50px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 22px;
+  text-align: center;
+  color: #ffffff;
+}
+
+li a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+form {
+  text-align: center;
+  text-decoration: none;
+}
+
+b {
+  color: #d8d2ea;
+}
+
+.quiz-text p {
+  color: #341d4e;
+}
+
+.quiz-text h2 {
+  color: #822666;
+}
+
+.question p {
+  color: #822666;
+  font-weight: 600;
+}
+
+.quiz-form {
+  margin: 20px;
+}

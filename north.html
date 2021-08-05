@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Directo al Norte</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body onload="getName()">
+    <div class="container-norte">
+        <main class="norte">
+            <div class="quiz-text">
+                <h2 class="name"></h2>
+                <p>Elige la opción correcta <br /></p>
+            </div>
+            <form class="quiz-form" action="result.html">
+                <div class="question">
+                    <p>Atacama es:</p>
+                    <label><input type="radio" name="q1" value="0" /> Mi gato</label><br />
+                    <label><input type="radio" name="q1" value="1" /> Un desierto</label><br />
+                    <label><input type="radio" name="q1" value="0" /> Un plato típico</label><br />
+                </div>
+                <div class="question">
+                    <p>¡VOY AL NORTE! ¿Qué tengo que llevar?:</p>
+                    <label><input type="radio" name="q2" value="0" /> Un paraguas</label><br />
+                    <label><input type="radio" name="q2" value="1" /> Protector solar</label><br />
+                    <label><input type="radio" name="q2" value="0" /> Mi vestido
+                        favorito</label><br />
+                </div>
+                <div class="question">
+                    <p>Para pasarla bien en la altura</p>
+                    <label><input type="radio" name="q3" value="0" /> Tomaré vodka</label><br />
+                    <label><input type="radio" name="q3" value="1" /> Masticaré hojas de
+                        coca</label><br />
+                    <label><input type="radio" name="q3" value="0" /> Comeré pan con
+                        palta</label><br />
+                </div>
+                <button onclick="calculateResult()">Enviar</button>
+            </form>
+        </main>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
